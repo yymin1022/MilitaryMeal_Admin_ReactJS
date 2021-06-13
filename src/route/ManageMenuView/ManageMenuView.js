@@ -10,9 +10,13 @@ const ManageMenuView = () => {
         <div>
             ManageMenu Layout
 
-            <TextInput trigger={[""]} options={{
-                "": ["aa", "ab", "abc", "abcd"]
-                }} />
+            <TextInput
+                onRequestOptions={this.handleRequestOptions}
+                options={{
+                    "": ["aa", "ab", "abc", "abcd"]
+                }}
+                matchAny={true}
+                trigger={[""]} />
         </div>
     );
 }
