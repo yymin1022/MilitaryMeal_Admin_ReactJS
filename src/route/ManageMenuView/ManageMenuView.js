@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import Button from "@material-ui/core/Button";
@@ -7,7 +8,7 @@ import TextField from "@material-ui/core/TextField";
 import "./ManageMenuView.css";
 
 const ManageMenuView = () => {
-    this.menuList = [
+    const menuList = [
         {menu: "돼지고기 김치볶음"},
         {menu: "돼지고기 청경채볶음"},
         {menu: "김치찌개"},
@@ -26,7 +27,7 @@ const ManageMenuView = () => {
             ManageMenu Layout
 
             <Autocomplete
-                options={this.menuList}
+                options={menuList}
                 getOptionLabel={(option) => 
                     option.menu}
                 style={{width: 300}}
@@ -36,6 +37,10 @@ const ManageMenuView = () => {
                         label="Input Menu Name"
                         variant="outlined" />
                 } />
+            
+            <Link to="">
+                <Button>Add this Menu to Filter</Button>
+            </Link>
         </div>
     );
 }
