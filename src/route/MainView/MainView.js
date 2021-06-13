@@ -7,8 +7,8 @@ const MainView = () => {
     return(
         <div>
             Main Layout
-            <Link to="/manageUser">
-                <div>User Account Registration  Approve</div>
+            <Link to="/approve">
+                <div>Approve User Account Registration</div>
             </Link>
             <Link to="/manage">
                 <div>Menu Filtering Manage</div>
