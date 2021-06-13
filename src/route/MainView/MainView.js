@@ -7,6 +7,7 @@ const MainView = () => {
     return(
         <div>
             Main Layout
+            
             <Link to="/approve">
                 <div>Approve User Account Registration</div>
             </Link>
