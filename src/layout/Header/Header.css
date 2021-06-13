@@ -2,8 +2,10 @@
     height: 40px;
     width: 100%;
 
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 
+    align-items: center;
     background-color: #29b6f6;
     display: flex;
     flex-direction: row;
