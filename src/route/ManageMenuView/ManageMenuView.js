@@ -10,7 +10,9 @@ const ManageMenuView = () => {
         <div>
             ManageMenu Layout
 
-            <TextInput trigger={["@", "@@"]} options={{"@": ["aa", "ab", "abc", "abcd"], "@@": ["az", "ar"]}} />
+            <TextInput trigger={[""]} options={{
+                "": ["aa", "ab", "abc", "abcd"]
+                }} />
         </div>
     );
 }
