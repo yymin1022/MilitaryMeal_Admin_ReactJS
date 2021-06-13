@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import {BrowserRouter as Router, Switch} from "react-router-dom";
 
 import DefaultLayout from "./layout/Default";
@@ -8,19 +8,10 @@ import ApproveUserView from "./route/ApproveUserView";
 import MainView from "./route/MainView";
 import ManageMenuView from "./route/ManageMenuView";
 import RankView from "./route/RankView";
-// import axios from "axios";
 
 import "./App.css";
 
 const App = () => {
-    // useEffect(() => {
-    //   axios.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';
-    //   axios.post("https://mnd-meal-api.defcon.or.kr/login", {username:"user", password:"123"})
-    //   .then((response)=>{
-    //     console.log(response)
-    //   })
-    //   return true;
-    // }, []);
     return(
         <Router>
             <Switch>
