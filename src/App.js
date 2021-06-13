@@ -10,6 +10,8 @@ import ManageMenuView from "./route/ManageMenuView";
 import RankView from "./route/RankView";
 // import axios from "axios";
 
+import "./App.css";
+
 const App = () => {
     // useEffect(() => {
     //   axios.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';

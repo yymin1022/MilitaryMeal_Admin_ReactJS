@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "./RankView.css";
+
 const RankView = () => {
     return(
         <div>
