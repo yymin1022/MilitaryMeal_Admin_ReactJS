@@ -2,6 +2,8 @@
     height: 50px;
     width: 100%;
 
+    padding: 5px;
+
     background-color: #29b6f6;
     display: flex;
     flex-direction: row;
