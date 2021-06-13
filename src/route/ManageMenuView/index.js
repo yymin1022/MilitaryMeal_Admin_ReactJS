@@ -1,1 +1,1 @@
-export {default} from "./ManageMenu";
+export {default} from "./ManageMenuView";
