@@ -1,18 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class MealView extends Component{
-    constructor(){
-        super();
-        this.state = {};
-    }
-
-    render(){
-        return(
-            <div className="MainView">
-                Main Layout
-            </div>
-        );
-    }
+function MainView(){
+    return(
+        <div>
+            Main Layout
+        </div>
+    );
 }
  
-export default MealView;
+export default MainView;
