@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {Link} from "react-router-dom";
+
+import Header from "../Header";
 
 import "./Default.css";
 
@@ -12,16 +13,7 @@ const Default = (props) => {
     
     return(
         <div className={className}>
-            <div className="Header">
-                <div className="HeaderLogo">
-                    LOGO
-                </div>
-                <div className="HeaderNav">
-                    <Link to="/">
-                        <div>Home</div>
-                    </Link>
-                </div>
-            </div>
+            <Header />
             <div>
                 {children}
             </div>
