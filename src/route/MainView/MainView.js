@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MainView(){
+const MainView = () => {
     return(
         <div>
             Main Layout

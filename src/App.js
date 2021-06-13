@@ -7,26 +7,26 @@ import RouteLayout from "./layout/RouteLayout";
 import MainView from "./route/MainView";
 // import axios from "axios";
 
-function App() {
-  // useEffect(() => {
-  //   axios.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';
-  //   axios.post("https://mnd-meal-api.defcon.or.kr/login", {username:"user", password:"123"})
-  //   .then((response)=>{
-  //     console.log(response)
-  //   })
-  //   return true;
-  // }, []);
-  return (
-    <Router>
-      <Switch>
-        <RouteLayout
-          exact
-          path="/"
-          layout={DefaultLayout}
-          component={MainView} />
-      </Switch>
-    </Router>
-  );
+const App = () => {
+    // useEffect(() => {
+    //   axios.defaults.headers.post['Content-Type'] ='application/x-www-form-urlencoded';
+    //   axios.post("https://mnd-meal-api.defcon.or.kr/login", {username:"user", password:"123"})
+    //   .then((response)=>{
+    //     console.log(response)
+    //   })
+    //   return true;
+    // }, []);
+    return(
+        <Router>
+            <Switch>
+                <RouteLayout
+                    exact
+                    path="/"
+                    layout={DefaultLayout}
+                    component={MainView} />
+            </Switch>
+        </Router>
+    );
 }
 
 export default App;
