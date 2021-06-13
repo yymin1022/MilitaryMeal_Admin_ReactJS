@@ -6,7 +6,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import "./ManageMenuView.css";
 
 const ManageMenuView = () => {
-    const menuList = [
+    this.menuList = [
         {menu: "돼지고기 김치볶음"},
         {menu: "돼지고기 청경채볶음"},
         {menu: "김치찌개"},
@@ -25,7 +25,7 @@ const ManageMenuView = () => {
             ManageMenu Layout
 
             <Autocomplete
-                options={menuList}
+                options={this.menuList}
                 getOptionLabel={(option) => 
                     option.menu}
                 style={{width: 300}}
