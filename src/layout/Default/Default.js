@@ -14,7 +14,7 @@ const Default = (props) => {
     return(
         <div className={className}>
             <Header />
-            <div>
+            <div className="Content">
                 {children}
             </div>
         </div>
