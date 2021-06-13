@@ -27,11 +27,12 @@ const ManageMenuView = () => {
                 getOptionLabel={(option) => 
                     option.menu}
                 style={{width: 300}}
-                renderInput={(params) => <TextField
-                    {...params}
-                    label="Input Menu Name"
-                    variant="outlined" />
-                }/>
+                renderInput={(params) =>
+                    <TextField
+                        {...params}
+                        label="Input Menu Name"
+                        variant="outlined" />
+                } />
         </div>
     );
 }
