@@ -5,7 +5,7 @@ import DefaultLayout from "./layout/Default";
 import RouteLayout from "./layout/RouteLayout";
 
 import MainView from "./route/MainView";
-import axios from "axios";
+// import axios from "axios";
 
 function App() {
   // useEffect(() => {
