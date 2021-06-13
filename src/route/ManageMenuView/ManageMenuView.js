@@ -13,7 +13,7 @@ const ManageMenuView = () => {
             <TextInput
                 onRequestOptions={this.handleRequestOptions}
                 options={{
-                    "": ["aa", "ab", "abc", "abcd"]
+                    "": ["돼지고기 김치볶음", "돼지고기 청경채볶음", "된장찌개", "돼지고기 김치찌개", "햄소시지찌개", "쌀밥", "현미밥"]
                 }}
                 matchAny={true}
                 trigger={[""]} />
