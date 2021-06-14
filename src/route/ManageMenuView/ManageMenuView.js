@@ -26,8 +26,6 @@ const ManageMenuView = () => {
 
     return(
         <div>
-            ManageMenu Layout
-
             <Autocomplete
                 options={menuList}
                 getOptionLabel={(option) => 
