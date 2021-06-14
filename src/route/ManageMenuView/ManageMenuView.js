@@ -41,7 +41,7 @@ const ManageMenuView = () => {
                 }
                 
                 onChange={(event, value, reason) => {
-                    setMenu(value);
+                    setMenu(value.menu);
                 }}/>
             
             <Link to="">
