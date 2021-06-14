@@ -44,11 +44,9 @@ const ManageMenuView = () => {
                     setMenu(value.menu);
                 }}/>
             
-            <Link to="">
-                <Button onClick={() => {
-                    console.log({menuStr});
-                }}>Add this Menu to Filter</Button>
-            </Link>
+            <Button onClick={() => {
+                console.log({menuStr});
+            }}>Add this Menu to Filter</Button>
         </div>
     );
 }
