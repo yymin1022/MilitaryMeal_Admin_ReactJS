@@ -22,6 +22,8 @@ const ManageMenuView = () => {
         {menu: "Spaghetti"},
     ]
 
+    const menuStr = "";
+
     return(
         <div>
             ManageMenu Layout
@@ -36,10 +38,16 @@ const ManageMenuView = () => {
                         {...params}
                         label="Input Menu Name"
                         variant="outlined" />
-                } />
+                }
+                
+                onChange={(event, value, reason) => {
+                    menuStr = value;
+                }}/>
             
             <Link to="">
-                <Button>Add this Menu to Filter</Button>
+                <Button onClick={() => {
+                    console.log(value);
+                }}>Add this Menu to Filter</Button>
             </Link>
         </div>
     );
