@@ -8,6 +8,8 @@ import TextField from "@material-ui/core/TextField";
 import "./ManageMenuView.css";
 
 const ManageMenuView = () => {
+    const [menuStr, setMenu] = useState("");
+
     const menuList = [
         {menu: "돼지고기 김치볶음"},
         {menu: "돼지고기 청경채볶음"},
@@ -21,8 +23,6 @@ const ManageMenuView = () => {
         {menu: "Pizza"},
         {menu: "Spaghetti"},
     ]
-
-    const menuStr = "";
 
     return(
         <div>
@@ -41,12 +41,12 @@ const ManageMenuView = () => {
                 }
                 
                 onChange={(event, value, reason) => {
-                    menuStr = value;
+                    setMenu(value);
                 }}/>
             
             <Link to="">
                 <Button onClick={() => {
-                    console.log(value);
+                    console.log({menuStr});
                 }}>Add this Menu to Filter</Button>
             </Link>
         </div>
