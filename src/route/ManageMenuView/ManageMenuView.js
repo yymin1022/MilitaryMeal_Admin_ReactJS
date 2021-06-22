@@ -20,6 +20,7 @@ const ManageMenuView = () => {
         {menu: "열무김치"},
         {menu: "쌀밥"},
         {menu: "현미밥"},
+        {menu: "Pasta"},
         {menu: "Pizza"},
         {menu: "Spaghetti"},
     ]
